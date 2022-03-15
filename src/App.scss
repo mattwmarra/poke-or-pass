@@ -1,0 +1,80 @@
+html {
+  background: #FAF9F6;
+  color: #303030;
+}
+
+header {
+  color: #303030;
+}
+
+.App {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
+}
+
+main {
+  display: flex;
+  flex-direction: row;
+}
+
+.pokemon-display {
+  width: 100%;
+  margin-top: 7vh;
+  img {
+    min-width: 320px;
+    max-width: 320px;
+    margin: 0 auto;
+    padding: 42px;
+    border-radius: 999px;
+    background-color: #F2F2F2;
+  }
+}
+
+.button{
+  padding: 24px;
+  font-size: 2rem;
+  margin: 1rem;
+  border-radius: 999px;
+  border: 0px;
+  color: aliceblue;
+  cursor: pointer;
+  transition: all .2s ease-out;
+}
+
+.smash-list-wrapper {
+  width: 40%;
+  margin-right: 2vw;
+  background: #303030;
+  h3 {
+    color: #F2F2F2 ;
+  }
+}
+.smash {
+  background: #4DAD5B;
+  &:hover, &:focus {
+    background: #3e8a49;
+  }
+}
+
+.pass {
+  background: #E3350D;
+  &:hover, &:focus {
+    background: #b62a0a;
+  }
+}
+
+.smash-list {
+  border-radius: 4px;
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-content: flex-start;
+  padding-left: 2vw;
+  flex-wrap: wrap;
+  min-height: 80vh;
+  max-height: 80vh;
+  overflow: scroll;
+
+}
